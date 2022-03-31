@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  protoc:
+    image: ghcr.io/tk42/protoc
+    volumes: 
+      - ./:/home
+    working_dir: "/home"
+    command: ["go", "generate", "./..."]

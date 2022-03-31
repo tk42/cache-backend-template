@@ -1,0 +1,6 @@
+grafana/**
+!grafana/grafana.ini
+
+ent/**
+!ent/schema/user.go
+!ent/generate.go
