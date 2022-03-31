@@ -27,6 +27,10 @@ To define User schema, open ent/schema/user.go. then
 go generate ./...
 ```
 
+Now you can see the ER diagram with entviz to see `schema-viz.html`
+
+![schema-viz](./assets/schema-viz.png)
+
 ### Generate proto files
 
 ```
@@ -98,18 +102,23 @@ $ docker compose up
 ## Screen shots
 
 Create a user
+
 ![001](./assets/001.png)
 
 Response of the creation of a user
+
 ![002](./assets/002.png)
 
 Get list of user
+
 ![003](./assets/003.png)
 
 Response of the list of user
+
 ![004](./assets/004.png)
 
 Check the data inside postgres DB
+
 ![005](./assets/005.png)
 
 ## Reference

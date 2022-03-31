@@ -3,4 +3,7 @@ grafana/**
 
 ent/**
 !ent/schema/user.go
+!ent/entc.go
 !ent/generate.go
+
+**/.DS_Store
