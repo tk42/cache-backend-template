@@ -2,7 +2,7 @@ grafana/**
 !grafana/grafana.ini
 
 ent/**
-!ent/schema/user.go
+!ent/schema/*
 !ent/entc.go
 !ent/generate.go
 
