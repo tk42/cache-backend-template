@@ -39,7 +39,7 @@ services:
   grafana:
     image: 'grafana/grafana:latest'
     volumes:
-      - "./grafana:/var/lib/grafana"
+      - "./grafana/grafana.ini:/var/lib/grafana/grafana.ini"
     depends_on:
       - db
     ports:
