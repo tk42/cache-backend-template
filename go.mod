@@ -1,8 +1,8 @@
-module github.com/tk42/cache-backend-template
+module github.com/tk42/crud-backend-template
 
 go 1.18
 
-replace github.com/tk42/ent => ./ent
+replace github.com/tk42/crud-backend-template/ent => ./ent
 
 require (
 	entgo.io/contrib v0.2.0
@@ -21,7 +21,6 @@ require (
 	github.com/google/go-cmp v0.5.7 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/hashicorp/hcl/v2 v2.11.1 // indirect
-	github.com/hedwigz/entviz v0.0.0-20211119095041-601c47ba417e // indirect
 	github.com/jhump/protoreflect v1.12.0 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
 	github.com/mitchellh/mapstructure v1.4.3 // indirect

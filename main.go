@@ -6,8 +6,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/tk42/cache-backend-template/ent"
-	"github.com/tk42/cache-backend-template/ent/proto/entpb"
+	"github.com/tk42/crud-backend-template/ent"
+	"github.com/tk42/crud-backend-template/ent/proto/entpb"
 
 	_ "github.com/lib/pq"
 	"google.golang.org/grpc"
